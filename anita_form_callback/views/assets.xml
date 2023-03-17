@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <template id="anita_form_callback_res"
+                  name="anita_form_call_back_res"
+                  inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="application/javascript"
+                        src="anita_form_callback/static/js/anita_form_extend.js" />  
+            </xpath>
+        </template>
+
+    </data>
+</odoo>
