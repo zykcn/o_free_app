@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <!-- action manager -->
+    <t t-name="akl_multi_tab_plugin.action_manager">
+        <div class="akl_action_manager o_action_manager d-flex flex-column">
+            <div class="akl_multi_tab_container" />
+            <div class="akl_controller_container flex-fill" />
+        </div>
+    </t>
+    
+</templates>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <template id="assets_backend" name="akl_multi_tab_plugin_assets" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+
+                <link rel="stylesheet" type="text/css" href="/akl_multi_tab_plugin/static/css/akl_action_manager.scss" />
+                <link rel="stylesheet" type="text/css" href="/akl_multi_tab_plugin/static/css/akl_multi_tab.scss" />
+
+                <script type="application/javascript" src="/akl_multi_tab_plugin/static/js/akl_action_manager.js" />
+                <script type="application/javascript" src="/akl_multi_tab_plugin/static/js/akl_action_manager_act_window.js" />
+                <script type="application/javascript" src="/akl_multi_tab_plugin/static/js/akl_form_render.js" />
+                <script type="text/javascript" src="/akl_multi_tab_plugin/static/js/akl_multi_tab.js"/>
+
+            </xpath>
+        </template>
+
+    </data>
+</odoo>
