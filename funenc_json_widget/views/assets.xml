@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <template id="funenc_json_widget_res" name="funenc_json_widget_res" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script type="application/javascript" src='funenc_json_widget/static/js/json_widget.js'/>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

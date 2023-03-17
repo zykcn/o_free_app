@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates id="template" xml:space="preserve">
+
+  <t t-name="json_widget_demo.html_demo">
+    <div>
+      <p>here is your template!</p>
+      <p>
+        <t t-esc="name" />
+      </p>
+    </div>
+  </t>
+
+  <t t-name="json_widget_demo.table_demo">
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td colspan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+  </t>
+
+  <t t-name="json_widget_demo.image_demo">
+    <img src="https://www.funenc.com/web/image/website/1/logo/Funenc?unique=158da7c" height="100"/>
+  </t>
+
+  <t t-name="json_widget_demo.url_demo">
+    <a href="https://www.funenc.com/">link</a>
+  </t>
+
+  <t t-name="json_widget_demo.button_demo">
+    <button type="button" class="btn btn-lg btn-danger">button1</button>
+    <button type="button" class="btn btn-lg btn-success ml-1">button2</button>
+  </t>
+
+</templates>

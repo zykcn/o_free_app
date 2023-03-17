@@ -1,0 +1,43 @@
+<odoo>
+  <data>
+
+    <record model="ir.ui.view" id="json_widget_demo.list">
+      <field name="name">json_widget_demo</field>
+      <field name="model">json_widget_demo.json_widget_demo</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="json_display" widget="json_widget_pro" />
+        </tree>
+      </field>
+    </record>
+
+    <record model="ir.ui.view" id="json_widget_demo.form">
+        <field name="name">json_widget_demo</field>
+        <field name="model">json_widget_demo.json_widget_demo</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <field name="name" />
+                    <field name="json_content" />
+                    <field name="json_display" widget="json_widget_pro" />
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <record model="ir.actions.act_window" id="json_widget_demo.action_window">
+      <field name="name">json_widget_demo window</field>
+      <field name="res_model">json_widget_demo.json_widget_demo</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem name="json_widget_demo" id="json_widget_demo.menu_root"/>
+
+    <menuitem name="demo" 
+              id="json_widget_demo.demo_menu" 
+              parent="json_widget_demo.menu_root"
+              action="json_widget_demo.action_window"/>
+
+  </data>
+</odoo>

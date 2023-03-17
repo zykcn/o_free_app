@@ -1,0 +1,35 @@
+<odoo>
+    <data>
+
+          <record id="object1" model="json_widget_demo.json_widget_demo">
+            <field name="name">url demo</field>
+            <field name="json_content">{"name": "crax", "template": "json_widget_demo.html_demo"}</field>
+            <field name="json_display">{"name": "crax", "template": "json_widget_demo.html_demo"}</field>
+          </record>
+
+          <record id="object2" model="json_widget_demo.json_widget_demo">
+            <field name="name">table demo</field>
+            <field name="json_content">{"name": "crax", "template": "json_widget_demo.table_demo"}</field>
+            <field name="json_display">{"name": "crax", "template": "json_widget_demo.table_demo"}</field>
+          </record>
+
+          <record id="object3" model="json_widget_demo.json_widget_demo">
+            <field name="name">image demo</field>
+            <field name="json_content">{"name": "crax", "template": "json_widget_demo.image_demo"}</field>
+            <field name="json_display">{"name": "crax", "template": "json_widget_demo.image_demo"}</field>
+          </record>
+
+          <record id="object4" model="json_widget_demo.json_widget_demo">
+            <field name="name">url demo</field>
+            <field name="json_content">{"name": "crax", "template": "json_widget_demo.url_demo"}</field>
+            <field name="json_display">{"name": "crax", "template": "json_widget_demo.url_demo"}</field>
+          </record>
+
+          <record id="object5" model="json_widget_demo.json_widget_demo">
+            <field name="name">button demo</field>
+            <field name="json_content">{"name": "crax", "template": "json_widget_demo.button_demo"}</field>
+            <field name="json_display">{"name": "crax", "template": "json_widget_demo.button_demo"}</field>
+          </record>
+
+    </data>
+</odoo>
